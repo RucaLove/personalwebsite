@@ -1,0 +1,341 @@
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+/* ----- =structure ----- */
+
+header {
+  height: 500px;
+  position: static;
+  width: 100%;
+  top: 0px;
+  /*background-color: purple;*/
+  /*z-index: 100;*/
+  /*background-color: #EDEDF4;*/
+}
+
+.header2 {
+  height: 150px;
+  position: static;
+  width: 100%;
+  top: 0px;
+}
+
+main {
+  min-height: 400px;
+  /*padding-top: 150px;*/
+  color: #4A5C85;
+  font-family: 'Give You Glory', cursive;
+  font-size: 18px;
+  padding-bottom: 10px;
+  /* This pushes the content down under the nav */
+}
+
+/*.content {*/
+  /*position:absolute;*/
+  /*top:150px;*/
+  /*bottom:90px;*/
+  /*left:0px;*/
+  /*right:0px;*/
+  /*overflow:auto;*/
+  /*background: url('images/home/respic.jpg') opacity 0.5 no-repeat center center static;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+  /*min-height: 100%;*/
+/*}*/
+
+footer {
+  height: 155px;
+  text-align: center;
+  padding-top: 5px;
+  color: #4A5C85;
+  font-family: 'Give You Glory', cursive;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  background-color: #DADADA;
+}
+
+
+.quote {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+a {
+  font-family: 'Give You Glory', cursive;
+}
+
+a:link    { color: purple; }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: purple;  }
+
+.wrapper {
+  width: 980px;
+  margin: auto;
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ----- =logo ----- */
+
+header h1 {
+  position: relative;
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: 'Delius Unicase', cursive;
+  color: #4A5C85;
+  text-align: right;
+  /*background-color: purple;*/
+}
+
+.title {
+  font-size: 25px;
+  font-family: 'Delius Unicase', cursive;
+  color: #4A5C85;
+  text-align: right;
+  margin: 0;
+}
+
+.paragraph {
+  position: static;
+  /*background-image: url('images/home/lotus.jpg');*/
+  /*background-position: static;*/
+  width: 100%;
+  height: 100%;
+  /*background-repeat: no-repeat;*/
+}
+
+.resume {
+  border-radius: 10px;
+  position: static;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(pink, #DADADA);
+}
+
+/*.paragraph::after {
+  content: "";
+  display: block;
+  position: absolute;
+  vertical-align: baseline;
+  top: 10;
+  bottom: 10;
+  background-image: url('images/home/respic.jpg');
+  background-position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  z-index: -1;
+}*/
+
+/*.background-image {
+  position:static;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+/*body {
+  background-image: url('images/home/lotus.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*opacity: .2;*/
+/*}*/
+
+/*body img {
+  opacity: .2;
+}*/
+
+.background-image {
+  /*content: "";*/
+  /*display: block;*/
+  /*vertical-align: baseline;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  background-image: url('images/home/lotus.jpg');
+  background-position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*z-index: -1;*/
+  /*opacity: 0.2;*/
+}
+
+.background-image img{
+  /*column background images*/
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+/*.paragraph {
+  font-size: 20px;
+  font-family: 'Give You Glory', cursive;
+  color: #4A5C85;
+  background:
+  url('images/home/lotus.jpg');
+  background-size: cover;
+}
+
+.paragraph::after {
+  opacity: 0.4
+}*/
+
+/* ----- =navigation ----- */
+
+#top-nav {
+  float: right;
+  margin-top: 10px;
+  /*background-color: gray;*/
+}
+
+#top-nav ul {
+  /*margin: 10;*/
+  list-style: none;
+  text-align: center;
+}
+
+#top-nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#top-nav ul li a {
+  font-size: 15px;
+  font-family: 'Delius Unicase', cursive;
+  color: #4A5C85;
+  text-decoration: none;
+}
+
+.body {
+  font-family: 'Give You Glory', cursive;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+.contact {
+  font-family: 'Give You Glory', cursive;
+  /*margin-left: 40px;*/
+  margin-right: 40px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+  float: right;
+  align-items: center;
+}
+
+.photo {
+  float: left;
+  align-items: center;
+  font-family: 'Give You Glory', cursive;
+  margin-left: 100px;
+  /*margin-right: 40px;*/
+  text-align: center;
+  /*margin-top: 50px;*/
+  font-size: 30px;
+}
+
+.love {
+  background-color: #DADADA;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Give You Glory', cursive;
+  text-align: center;
+  font-size: 10px;
+}
+
+/*--- resume ---*/
+
+.resume-header {
+  font-family: 'Delius Unicase', cursive;
+}
+
+.resume-row {
+  font-family: 'Give You Glory', cursive;
+  border-style: ridge;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+/* -------- =Column Layout -------*/
+
+  .one_eigth {    width:120px; padding-top: 5px;
+    font-family: 'Give You Glory', cursive; float: left;}
+  .one_fourth {   width:220px; font-family: 'Give You Glory', cursive; }
+  .one_third {    width:300px; font-family: 'Delius Unicase', cursive;
+  float: left; height: 145px; padding: 10px;}
+  .one_half {     width:460px; font-family: 'Give You Glory', cursive; float: right;}
+  .two_third {    width:620px; font-family: 'Give You Glory', cursive; }
+  .three_fourth { width:700px; font-family: 'Give You Glory', cursive; }
+  .full_column {  width: 940px; font-family: 'Give You Glory', cursive;}
+
+  .one_half,
+  .one_eigth,
+  .one_third,
+  .two_third,
+  .three_fourth,
+  .one_fourth,
+  .full_column {
+    margin-top: 5px;
+    padding-left: 10px;
+    color: #4A5C85;
+  }
+
+/* -- Clearfix -- */
+  .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+/*--- contact box ---*/
+form {
+  width: 80%;
+  margin: auto;
+}
+
+form p {
+  color: #4A5C85;
+  font-size: 18px;
+  font-family: 'Give You Glory', cursive;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+input, textarea {
+  width: 100%;
+}
+
+input[type=submit],
+input[type=reset] {
+  width: 100px;
+  float: right;
+  margin-left: 10px;
+}
+
+/*
+	STYLE.CSS:
+	One stylesheet to rule them all.
+
+	selector { property:value }
+
+*/
